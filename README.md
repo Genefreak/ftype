@@ -16,4 +16,4 @@ ISSUES:
 
 Currently, the program has to be run by specifying to python not to cache (python3 -u ftype.py) otherwise all the sounds are played... then all the code is dumped at once.
 
-Also, Something seems to be breaking the program before all the text has been displayed an dumping the remainder as commands on the screen instead of within the program. I think this may be related to certain characters being recognised by python as special characters. I have already written code to deal with linebreaks.
+Also, Something seems to be breaking the program before all the text has been displayed an dumping the remainder as commands on the screen instead of within the program. I think this may be related to certain characters being recognised by python as special characters. I have already written code to deal with linebreaks. Maybe a good test for this would be to push through every unicode character and see which breaks it and which don't then create rules for these characters.

@@ -21,6 +21,10 @@ Also, Something seems to be breaking the program before all the text has been di
 
 When text ends, we need a few newlines so that the command prompt does not display on the same line as the end of the text... or maybe a question "Do you want to add more text or exit"
 
+No "simpleaudio" module on windows' version of python - seems to work on linux.
+
+Entering a single space " " kills the program - string index out of range. Seems to be when a space is at the end of the string.
+
 
 FUTURE FEATURES
 

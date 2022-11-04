@@ -15,7 +15,7 @@ while location < length:
     wave_obj = simpleaudio.WaveObject.from_wave_file("bell.wav")
     play_obj = wave_obj.play()
     #play_obj.wait_done()
-    time.sleep(0.04)
+    time.sleep(0.06)
     print(text[location], end="")
 
     if text[location] == ",":
